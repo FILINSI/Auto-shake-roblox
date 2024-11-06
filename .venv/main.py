@@ -6,6 +6,7 @@ import pyautogui
 import time
 
 # Загрузка обученной модели
+# можно переобучить модель, но нужно делать скрины
 model = torch.hub.load('./yolov5', 'custom', path='best.pt', source='local')
 
 # Настройка модели (если необходимо)
